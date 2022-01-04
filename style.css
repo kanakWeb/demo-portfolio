@@ -3,13 +3,17 @@ body {
   margin: 0;
 }
 .h1 {
-  font-size: 40px;
+  font-size: 200px;
+}
+h2 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
 }
 .orange {
   color: rgb(255, 165, 0);
 }
 
-section {
+.faxible-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -43,4 +47,28 @@ section {
   background-image: url(image/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.skill-item {
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 20px;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+}
+.experience {
+  background-image: url(image/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.color1 {
+  border-left: 7px solid rgb(255, 113, 83);
+}
+#color2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+.style {
+  text-align: center;
 }
